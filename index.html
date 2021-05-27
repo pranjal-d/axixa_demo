@@ -5,27 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        table,td,th{
-            border: 1px solid ;
-            text-align:center;
-            border-collapse: collapse;
-        }
-        table{
-            width: 100%;
-        }
-        th,td{
-            height: 70px;
-        }
-    </style>
+     <style>
+         table,td,th{
+            width: 1000px;
+            height: 85px;
+            margin: 0 auto;
+            border: 1px solid #222;
+            text-align: center;
+            border-collapse:collapse;
+         }
+         caption{
+             font-size: xx-large;
+             font-weight: bold;
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             text-decoration: underline;
+         }
+         th,td{
+             font-size: x-large;
+             font-family:sans-serif;
+         }
+         th{
+             font-weight: bold;
+             background-color: burlywood;
+         }
+         td{
+             background-color: cornsilk;
+         }
+         tr :hover{
+             background-color:chocolate;
+             color: #fff;
+             cursor:pointer;
+         }
+     </style>    
 </head>
 <body>
     <table>
+        <caption>Students Details</caption>
         <thead>
             <tr>
                 <th>S.No</th>
                 <th>Name</th>
                 <th>Address</th>
+                <th>Email</th>
+                <th>Mobile.No</th>
             </tr>
         </thead>
         <tbody>
@@ -33,16 +55,36 @@
                 <td>1.</td>
                 <td>John</td>
                 <td>Street 12 jn road</td>
+                <td>john12#@gmail.com</td>
+                <td>9562341234</td>
             </tr>
             <tr>
                 <td>2.</td>
                 <td>Mercy</td>
                 <td>Behind park road</td>
+                <td>mercy33@gmail.com</td>
+                <td>8832129012</td>
             </tr> 
             <tr>
                 <td>3.</td>
                 <td>Enna</td>
                 <td>Street 12 jn road</td>
+                <td>ennaRT%@gmail.com</td>
+                <td>7689099011</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Tina</td>
+                <td>Street 11 jn road</td>
+                <td>tina23$@gmail.com</td>
+                <td>7544546789</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Adam</td>
+                <td>Street 2. jnv colony</td>
+                <td>adam22@gamil.com</td>
+                <td>9321100995</td>
             </tr>
         </tbody>
     </table>
